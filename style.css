@@ -1,0 +1,126 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+/* navbar styling */
+.navbar{
+  background-color: #F2D1B7;
+  padding: 1% 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #333366;
+
+}
+.navbar-brand{
+  min-height:55px;
+  padding: 0 15px;
+}
+.bavbar-default .navbar-nav li a {
+  color: #333366;
+  
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #FF9900
+}
+
+/* landing section styling */
+#home{
+  
+  background: url("img/7.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text{
+  color:#333366;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.landing-text h1{
+  
+  font-size: 500%;
+  font-weight: 700;
+}
+.bleu{
+  color: #333366;
+}
+
+.orange{
+  color:#FF9900;
+}
+
+.padding{
+  padding: 80px 0;
+}
+.padding img{
+  width: 100%;
+}
+
+#fix{
+  background: url("img/3.jpg") no-repeat center center fixed;
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.service{
+  color: #FF9900;
+  font-weight: 700;
+}
+h4{
+  color: #333366;
+  font-weight: bold;
+}
+#fix2{
+  background: url("img/6.jpg") no-repeat center center fixed;
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+footer{
+  width: 100%;
+  background-color: #F2D1B7;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+.contact{
+  padding: 15px;
+  font-size:25px;
+  color:#333366
+}
+.contact:hover{
+  color: #FF9900;
+}
+
+.fa:hover {
+  color: #333366;
+  text-decoration: none;
+}
+
+
+
+.icon{
+  color: #FF9900;
+  max-width: 200px;
+}
+
+@media (max-width:768px) {
+  .landing-text h1{
+    font-size: 40px;
+  }
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon{
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
